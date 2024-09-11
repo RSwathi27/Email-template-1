@@ -1,0 +1,248 @@
+@font-face {
+    font-family: "Calibri";
+    src: url('Resources/Calibri/Calibri.ttf') format ('truetype');
+  }
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+html { 
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100;
+}
+
+
+body {
+    margin: 0 auto;
+    background: #bbefd488;
+    max-width: 700px;
+    font-size: 18px;
+    font-family: 'Calibri', Helvetica, sans-serif;
+}
+
+
+#wrapper {
+    width: 700px;
+    background: #f4ebd0;
+    
+}
+
+#availability {
+    background: #3e2a0f;
+    color: #f4ebd0;
+    text-align: center;
+    padding: 3px 0 3px 0;
+}
+
+.summary {
+    padding: 2% 2% 0 2%;
+    color: #3e2a0f;
+    word-spacing: 1.5px;
+    letter-spacing: 0.5px;
+}
+
+.salutation {
+    padding-bottom: 4%;    
+}
+
+.description {
+    text-align: justify;
+    padding-top: 10%;
+}
+
+.button-holder {
+    margin: 0 0 7% 0;
+    padding: 1% 1% 1% 0;
+}
+
+.btn {
+    background-color: #ffb300;
+    text-decoration:none;
+    padding: 6px 15px;
+    border-radius: 25px;
+    font-weight: bold;
+    position: absolute;
+    color: #3e2a0f;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+h3 {
+    padding: 2% 2% 0 2%;   
+    font-size: 20px; 
+    font-weight: bold;
+}
+
+
+.traits-images {
+    padding: 2%;
+    width: 203px;
+    text-align: center;
+}
+
+.traits-description {
+    width: 203px;
+    margin-bottom: 2%;
+    word-spacing: 2px;
+}
+
+.col-one {
+    padding: 2% 2% 2% 2%;
+    text-align: center;
+}
+
+.col-two {
+    padding: 2% 2% 2% 2%;
+    text-align: center;
+}
+
+.col-three {
+    padding: 2% 2% 2% 2%;
+    text-align: center;
+}
+
+.line {
+    clear: both;
+    height: 1px;
+    background: #3e2a0f;
+    margin: 2% auto;
+    width: 98%; 
+}
+
+
+.expertise-description {
+    width: 200px;
+    margin-bottom: 2%;
+}
+
+.strategy {
+    padding: 2% 1% 2% 2%;
+    text-align: center;
+}
+
+.optimize {
+    padding: 2% 2% 2% 1%;
+    text-align: center;
+}
+
+.Analysis {
+    padding: 2% 2% 2% 1%;
+    text-align: center;
+}
+
+.expertise-images {
+    padding: 2%;
+    width: 203px;
+    text-align: center;
+}
+
+.container {
+    width: 440px;
+    background-color: #f9ce69;
+    margin-top: 1%;
+    margin-right: 125px;
+    margin-left: 125px;
+    border-radius: 25px;
+    height: 200px;
+    max-width: 100%;
+}
+
+.container-head {
+    text-align: center;
+    font-weight: bold;
+    padding: 2%;
+}
+
+.chat-button {
+    margin: 3% 0 4% 0;
+    padding: 1%;
+    text-align: center;
+}
+
+.chat {
+    background-color: #ffb300;
+    text-decoration:none;
+    padding: 6px 15px;
+    border-radius: 25px;
+    font-weight: bold;
+    color: #3e2a0f;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+table {
+    table-layout: fixed;
+}
+
+.tools {
+    text-align: center;
+}
+
+.hubspot {
+    width: 140px;
+    height: 50px;
+    padding: 2% 3% 2% 3%;
+}
+
+.salesforce {
+    width: 140px;
+    height: 50px;
+    padding: 2% 3% 2% 3%;
+}
+
+.marketo {
+    width: 140px;
+    height: 50px;
+    padding: 2% 3% 2% 3%;
+}
+
+.canva {
+    width: 140px;
+    height: 50px;
+    padding: 2% 3% 4% 3%;
+}
+
+
+.ga {
+    width: 140px;
+    height: 50px;
+    padding: 2% 3% 2% 3%;
+}
+
+
+.mailchimp {
+    width: 140px;
+    height: 50px;
+    padding: 1% 0% 2% 3%;
+}
+
+.footer {
+    padding-bottom: 3%;
+}
+
+.list {
+    list-style: none;
+    text-align: center;
+        text-decoration: none;
+
+}
+
+li {
+    display: inline;
+    padding: 1% 5% 4% 5%;
+
+}
+
+a {
+    text-decoration: none;
+    color: #3e2a0f;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: #f9ce69;
+}
